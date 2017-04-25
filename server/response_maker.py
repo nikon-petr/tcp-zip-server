@@ -17,7 +17,7 @@ def make_response(connection, client_address, response_dictionary):
         connection.sendall(response_pack)
         response_pack = response_stream.read(1024)
         print('sending response...')
-    print('sent response')
+    print('sent response\n')
 
     connection.shutdown(socket.SHUT_WR)
 
