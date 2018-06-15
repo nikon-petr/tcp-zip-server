@@ -1,5 +1,5 @@
 # TCP Zip Server
-Client-server application for share files
+Client-server application for sharing files
 
 ## Build with
 * python 3
